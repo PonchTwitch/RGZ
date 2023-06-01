@@ -1,0 +1,242 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #22278a;
+    color: #02818a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #291b69;
+}
+
+nav ul li a.active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    margin-top: -0.35%;
+    margin-left: 75%;
+    height: 60px;
+    width: 125px;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: lightgray;
+}
+
+footer a:visited {
+    color: lightgray;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+.bumagi a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.bumagi a:visited {
+    color: #000000;
+}
+
+.bumagi a:hover {
+    color: #007bff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+  }
+  
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  }
+  
+th {
+  background-color: lightgray;
+  }
+
+.kartinka_verh {
+  margin-bottom: 150px
+  }
+
+.kartinka_verh img {
+  width: 100%;
+  height: 300px;
+  margin-top: 0px;
+  }
+
+.kartinka_verh h1 {
+  color: rgb(255, 255, 255);
+  margin-top: -220px;
+  margin-left: 130px;
+  font-size: 64px;
+  }
+
+.osn_text {
+  width: 800px; 
+  text-align: justify;
+  margin-left: 400px;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: gray;
+  line-height: 25px;
+  }
+
+.polosa {
+  display: inline-block;
+  }
+
+.polosa hr {
+  position: absolute;
+  height: 1200px;
+  width: 1px; 
+  color: rgb(176, 171, 171);
+  z-index: -1;
+  margin-left: 20px;
+  margin-top: -300px
+  }
+
+.bok.inf {
+  display: inline-block;
+  }
+
+.bok.inf h1 {
+  position: absolute;
+  font-size: 72px;
+  }
+
+.photos6 {
+  display: inline-block;
+  margin-bottom: 50px;
+  }
+
+.photos6_text {
+  display: inline-block;
+  position: absolute;
+  margin-left: -400px;
+  margin-top: 210px;
+  color: azure;
+  font-size: 20px;
+  }
+
+.money {
+  display: inline-block;
+  width: 100%;
+  background-color: lightgray;
+  border-radius: 1px;
+  margin-bottom: 50px;
+  }
+
+footer {
+  width: 100%; 
+  height: 250px;
+  background-color:rgb(19, 19, 19);
+  margin-top: 50px;
+  }
+
+footer img {
+  width: 120px; 
+  height: 80px;
+  }
+
+.opisanie_fin {
+  display: inline-block;
+  margin-left: 300px;
+  color: brown;
+  }
+.opisanie_fin h1 {
+  font-size: 32px;
+  }
+
+.dlya_kogo {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  width: 450px;
+  margin-right: 120px;
+  }
+
+.napolnenie_footer {
+  display: inline-block;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.right_infa {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 35px;
+  }
+
+.right_infa a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.right_infa a:visited {
+  color: white;
+}
+
+.right_infa a:hover {
+  color: #007bff;
+}
+
+.text_v_footere_block {
+  margin-left: 250px;
+}
+
+.text_v_footere {
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kontakt {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  margin-right: 120px;
+  width: 450px;
+}
+
+
+
+  

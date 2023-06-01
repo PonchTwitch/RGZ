@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Основные финансовые показатели</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">О компании</a></li>
+        <li><a href="financial.html" class="active">Основные финансовые показатели</a></li>
+        <li><a href="contact.html">Контактные данные</a></li>
+        <li><a href="video.html">Видео</a></li>
+        <div class="logo">
+          <img class="logo" src="https://mechel.ru/local/templates/main/img/logo_20_v1.png" alt="">
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="kartinka_verh">
+      <img src="https://sun4-6.userapi.com/impg/zpi6p_EaIPdmNtY9Cc9Y7cAT-JLXI8MvLQhPZg/3W2iuoAsGaM.jpg?size=1280x395&quality=96&sign=d12f96342f02f6d14a620f2a751ebc40&type=album" alt="">
+      <h1>Финансы</h1>
+    </div>
+
+    <div class="opisanie_fin">
+      <h1>Ключевые показатели:</h1>
+    </div>
+
+    <div>
+      <div style="display: inline-block; margin-left: 300px; font-size: 12px; margin-top: 0px;">
+        <div style="display: inline-block; width: 400px; color: gray;">
+          <h1 style="font-size: 20px;">Код ценной бумаги</h1>
+        </div>
+        <div style="display: inline-block;">
+          <h2 style="font-size: 18px;">MTLR</h2>
+        </div>
+        <div style="display: inline-block; margin-left: 100px; width: 400px;">
+          <div style="display: inline-block; color: gray;">
+            <h1 style="font-size: 20px;">ISIN код</h1>
+          </div>
+          <div style="display: inline-block; margin-left: 165px;">
+            <h2 style="font-size: 18px;">TRU000A0DKXV5</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display: inline-block;">
+      <hr style="display:inline-block; height: 1px; width: 450px; color: lightgray; margin-left: 300px;">
+      <hr style="display:inline-block; height: 1px; width: 400px; color: lightgray; margin-left: 100px;">
+    </div>
+
+    <div>
+      <div style="display: inline-block; margin-left: 300px; font-size: 12px;">
+        <div style="display: inline-block; width: 400px; color: gray;">
+          <h1 style="font-size: 20px;">Идентификатор режима торгов</h1>
+        </div>
+        <div style="display: inline-block;">
+          <h2 style="font-size: 18px;">TQBR</h2>
+        </div>
+        <div style="display: inline-block; margin-left: 100px; width: 400px;">
+          <div style="display: inline-block; color: gray;">
+            <h1 style="font-size: 20px;">Уровень листинга</h1>
+          </div>
+          <div style="display: inline-block; margin-left: 205px; text-align: right;">
+            <h2 style="font-size: 18px;">1</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display: inline-block;">
+      <hr style="display:inline-block; height: 1px; width: 450px; color: lightgray; margin-left: 300px;">
+      <hr style="display:inline-block; height: 1px; width: 400px; color: lightgray; margin-left: 100px;">
+    </div>
+
+    <div>
+      <div style="display: inline-block; margin-left: 300px; font-size: 12px;">
+        <div style="display: inline-block; width: 400px; color: gray;">
+          <h1 style="font-size: 20px;">Режим торгов</h1>
+        </div>
+        <div style="display: inline-block; margin-left: -187px;">
+          <h2 style="font-size: 18px;">Т+: Акции и ДР - безадрес.</h2>
+        </div>
+        <div style="display: inline-block; margin-left: 100px;">
+          <div style="display: inline-block; width: 215px; color: gray;">
+            <h1 style="font-size: 20px;">Лотность</h1>
+          </div>
+          <div style="display: inline-block; margin-left: 170px; text-align: right;">
+            <h2 style="font-size: 18px;">1</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display: inline-block;">
+      <hr style="display:inline-block; height: 1px; width: 450px; color: lightgray; margin-left: 300px;">
+      <hr style="display:inline-block; height: 1px; width: 400px; color: lightgray; margin-left: 100px;">
+    </div>
+
+    <div class="opisanie_fin">
+      <h1>ПАО "Мечел"</h1>
+    </div>
+
+    <div>
+      <div style="width: 100%; background-color: rgb(233, 233, 233);">
+        <div style="margin-left: 50px;">
+          <div style="display: inline-block;">
+            <h1>105.9 млрд руб.</h1>
+          </div>
+          <div style="display: inline-block; margin-left: 70px; width: 200px;">
+            <h1>555 027 660</h1>
+          </div>
+          <div style="display: inline-block; margin-left: 70px; width: 200px;">
+            <h1 id="maxPrice"></h1>
+          </div>
+          <div style="display: inline-block; margin-left: 70px; width: 200px;">
+            <h1 id="minPrice"></h1>
+          </div>
+          <div style="display: inline-block; margin-left: 55px; width: 200px;">
+            <h1 id="stdDev"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div style="width: 100%; background-color: rgb(216, 216, 216);">
+        <div style="margin-left: 50px;">
+          <div style="display: inline-block; width: 300px;">
+            <p>капитализация на конец апреля</p>
+          </div>
+          <div style="display: inline-block; margin-left: 20px; width: 200px;">
+            <p>общее число акций</p>
+          </div>
+          <div style="display: inline-block; margin-left: 65px; width: 300px;">
+            <p>максимальная цена закрытия</p>
+          </div>
+          <div style="display: inline-block; margin-left: -25px; width: 250px;">
+            <p>минимальная цена закрытия</p>
+          </div>
+          <div style="display: inline-block; margin-left: 5px; width: 320px;">
+            <p>среднеквадратическое отклонение цены</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="opisanie_fin" style="color: brown;">
+      <h1>Торговые данные:</h1>
+    </div>
+
+    <table id="table" style="width: 965px; border: 1px; margin-left: 300px; margin-top: 0px;">
+      <thead>
+        <tr>
+          <th>Дата</th>
+          <th>Значение</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>16.05.2023</b></td>
+          <td><b>188,6</b></td>
+        </tr>
+        <tr>
+          <td><b>15.05.2023</b></td>
+          <td><b>190,44</b></td>
+        </tr>
+        <tr>
+          <td><b>12.05.2023</b></td>
+          <td><b>186,89</b></td>
+        </tr>
+        <tr>
+          <td><b>11.05.2023</b></td>
+          <td><b>187,11</b></td>
+        </tr>
+        <tr>
+          <td><b>10.05.2023</b></td>
+          <td><b>189,6</b></td>
+        </tr>
+        <tr>
+          <td><b>08.05.2023</b></td>
+          <td><b>176,62</b></td>
+        </tr>
+        <tr>
+          <td><b>05.05.2023</b></td>
+          <td><b>180,38</b></td>
+        </tr>
+        <tr>
+          <td><b>04.05.2023</b></td>
+          <td><b>179,7</b></td>
+        </tr>
+        <tr>
+          <td><b>03.05.2023</b></td>
+          <td><b>167,57</b></td>
+        </tr>
+        <tr>
+          <td><b>02.05.2023</b></td>
+          <td><b>179,7</b></td>
+        </tr>
+        <tr>
+          <td><b>28.04.2023</b></td>
+          <td><b>191,49</b></td>
+        </tr>
+        <tr>
+          <td><b>27.04.2023</b></td>
+          <td><b>191,49</b></td>
+        </tr>
+        <tr>
+          <td><b>26.04.2023</b></td>
+          <td><b>193,82</b></td>
+        </tr>
+        <tr>
+          <td><b>25.04.2023</b></td>
+          <td><b>195,92</b></td>
+        </tr>
+        <tr>
+          <td><b>24.04.2023</b></td>
+          <td><b>200,51</b></td>
+        </tr>
+        <tr>
+          <td><b>21.04.2023</b></td>
+          <td><b>196,94</b></td>
+        </tr>
+        <tr>
+          <td><b>20.04.2023</b></td>
+          <td><b>194,38</b></td>
+        </tr>
+        <tr>
+          <td><b>19.04.2023</b></td>
+          <td><b>198,26</b></td>
+        </tr>
+        <tr>
+          <td><b>18.04.2023</b></td>
+          <td><b>196,19</b></td>
+        </tr>
+        <tr>
+          <td><b>17.04.2023</b></td>
+          <td><b>181,75</b></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <div style="position: absolute; margin-left: 50px; margin-top: 20px;">
+      <img src="https://mechel.ru/local/templates/main/img/logo_20_v1.png" alt="">
+    </div>
+
+    <div class="text_v_footere_block">
+      <div style="display: inline-block; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <div style="margin-right: 120px; margin-top: 50px; width: 200px;">
+          <p><a href="https://dorogino.hh.ru/employer/2931950">Карьера в компании</a></p>
+        </div>
+        <div style="margin-right: 120px; width: 200px;">
+          <p><a href="https://mechel.ru/contacts/">Контактная информация</a></p>
+        </div>
+        <div>
+          <p><a href="https://mechel.ru/sitemap/">Карта сайта</a></p>
+        </div>
+      </div>
+
+      <div class="text_v_footere_block" style="display: inline-block; margin-left: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <div>
+          <p><a href="https://mechel.ru/shareholders/disclosure/mechel/">Раскрытие информации</a></p>
+        </div>
+        <div style="margin-right: 120px; width: 200px;">
+          <p><a href="https://mechel.ru/purchase/">Закупки</a></p>
+        </div>
+        <div style="width: 200px;">
+          <p><a href="https://mechel.ru/reviews/">Отзывы</a></p>
+        </div>
+      </div>
+
+      <div style="display: inline-block; margin-left: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <div style="margin-right: 120px; width: 200px;">
+          <p><a href="https://mechel.ru/neprofilnye-aktivy/">Непрофильные активы</a></p>
+        </div>
+        <div style="margin-right: 120px; width: 200px;">
+          <p><a href="https://mechel.ru/legal/">Правовая информация</a></p>
+        </div>
+        <div style="width: 200px;">
+          <p><a href="https://mechel.ru/press/">Пресс-центр</a></p>
+        </div>
+      </div>
+
+      <div class="right_infa">
+        <a href="tel:+74952218888">
+          <p>+7 (495) 221-88-88</p>
+        </a>
+        <a href="mailto:mechel@mechel.com">
+          <p>mechel@mechel.com</p>
+        </a>
+        <a href="mailto:rabota@mechel.com">
+          <p>Для соискателей:
+            <br> rabota@mechel.com</p>
+        </a>
+        <a href="https://yandex.ru/maps/213/moscow/?from=tabbar&ll=37.549705%2C55.796451&mode=search&sll=37.549705%2C55.796450&text=125167%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%D1%83%D0%BB.%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B0%D1%80%D0%BC%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F%2C%20%D0%B4.%201&z=17">
+          <p>125167, Москва, ул. Красноармейская, д. 1</p>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Шаг 1: Получить ссылку на таблицу
+    var table = document.getElementById('table'); // Замените 'your-table-id' на ID вашей таблицы
+    // Шаг 2: Найти все ячейки второго столбца
+    var cells = table.querySelectorAll('td:nth-child(2)'); // Здесь используется селектор :nth-child для выбора второго столбца
+    // Шаг 3: Найти максимальное и минимальное число
+    var maxNumber = null;
+    var minNumber = null;
+    var sum = 0; // Сумма значений
+    var count = 0; // Количество значений
+    for (var i = 0; i < cells.length; i++) {
+      var cellValue = parseFloat(cells[i].textContent.replace(',', '.')); // Заменяем запятую на точку и интерпретируем значение ячейки как десятичное число
+      if (isNaN(cellValue)) {
+        continue; // Пропустить, если значение не является числом
+      }
+      if (maxNumber === null || cellValue > maxNumber) {
+        maxNumber = cellValue;
+      }
+      if (minNumber === null || cellValue < minNumber) {
+        minNumber = cellValue;
+      }
+      sum += cellValue; // Добавляем значение к сумме
+      count++; // Увеличиваем количество значений
+    }
+    var average = sum / count; // Среднее значение
+    var sumOfSquaredDifferences = 0; // Сумма квадратов разностей
+    for (var i = 0; i < cells.length; i++) {
+      var cellValue = parseFloat(cells[i].textContent.replace(',', '.'));
+      if (isNaN(cellValue)) {
+        continue;
+      }
+      var difference = cellValue - average;
+      var squaredDifference = difference * difference;
+      sumOfSquaredDifferences += squaredDifference;
+    }
+    var standardDeviation = Math.sqrt(sumOfSquaredDifferences / count); // Стандартное отклонение
+    document.getElementById('maxPrice').textContent = maxNumber;
+    document.getElementById('minPrice').textContent = minNumber;
+    document.getElementById('stdDev').textContent = standardDeviation.toFixed(2);
+  </script>
+</body>
+
+</html>
